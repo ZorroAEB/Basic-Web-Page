@@ -1,0 +1,133 @@
+/***********  A template for a website with a menu across the top -  By Lin Taylor  ********/
+
+body 
+	margin: 0px;
+	padding: 0px;
+	text-align: right-side;
+	font-family: 'Raleway';
+	font-size: 13px;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+	color: #008000;
+}
+
+
+/************* HEADER STUFF ************/
+
+#header {
+	height: 120px;
+	margin: 0px auto;
+	text-align: center;
+	padding: 0px;
+	background:  white;
+	border-top: 2px solid black;
+	border-bottom: 2px solid black;
+}
+
+#header h1 {
+	color: #008000;
+	font-size: 55px;
+	padding: 0px;
+}
+
+#header h2 {
+	color: #008000;
+	font-size: 35px;
+}
+
+
+/************* MENU ************/
+
+#menu {
+	
+	margin: 0px auto;
+	padding: 5px 0px 5px 0px;
+	background: black;
+}
+
+#menu ul {
+	margin: 0px;
+	padding: 0px;
+	text-align: center;
+}
+
+#menu li {
+	display: inline;
+}
+
+#menu a {
+	padding: 5px 40px;
+	font-size: 16px;
+	font-weight: bold;
+	color: white;
+	text-decoration: none;
+}
+
+#menu a:hover {
+	color: #008000;
+}
+
+/************* CONTENT ************/
+
+#content {
+	margin: 0px auto;
+	background: white;
+	padding: 5px 30px 0px 30px;
+}
+
+#content a {
+	font-size: 23px;
+	color:black;
+	text-decoration: none;
+}
+
+#content a:hover {
+	color:#008000;
+}
+
+#content img{
+	padding: 0px 10px 0px 10px;
+}
+
+#content  p{
+	font-size: 15px;
+}
+
+#content  h1{
+	font-size: 50px;
+}
+
+#content  h2{
+	font-size: 40px;
+}
+
+#content  h3{
+	font-size: 30px;
+}
+
+#content td {
+	text-align: center;
+}
+/************* FOOTER ************/
+
+#footer {
+	clear: both;
+	margin: 0px auto;
+	border-top: 4px solid black;
+	border-bottom: 4px solid black;
+	background: #008000;
+	font-size: 11px;
+	padding: 2px;
+	color: white;
+}
+#footer a {
+	text-decoration: none;
+	color: black;
+}
+
+#footer a:hover {
+	color: white;
+
+}
+
